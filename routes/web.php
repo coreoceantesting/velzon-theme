@@ -21,7 +21,6 @@ Route::get('/', function () {
 
 
 
-
 // Guest Users
 Route::middleware(['guest','PreventBackHistory', 'firewall.all'])->group(function()
 {
